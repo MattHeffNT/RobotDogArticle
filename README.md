@@ -1,6 +1,6 @@
 ## Therapy ChatBot
 
-<a href="https://mattheffnt.github.io/RobotDogArticle/" />
+<a href="https://mattheffnt.github.io/RobotDogArticle/"> Robot Dog Chat Page</a>
 
 ## Media Release Document
 
