@@ -3,7 +3,7 @@
   const chatEl = document.getElementById("chat");
   const inputEl = document.getElementById("input");
   const sendBtn = document.getElementById("send");
-  const hintEl = document.getElementById("hint");
+  // const hintEl = document.getElementById("hint");
 
   let askedQuestions = 0;
   const MAX_QUESTIONS = 2;
@@ -109,7 +109,7 @@
   function lockInput() {
     inputEl.disabled = true;
     sendBtn.disabled = true;
-    hintEl.textContent = "Input locked.";
+    // hintEl.textContent = "Input locked.";
   }
 
   function wait(ms) {
