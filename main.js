@@ -1,4 +1,5 @@
 (() => {
+  // set variables
   const chatEl = document.getElementById("chat");
   const inputEl = document.getElementById("input");
   const sendBtn = document.getElementById("send");

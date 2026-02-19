@@ -1,6 +1,5 @@
 
-## HeLlO?
+## Media Release Document
 
-The therapy chatbot that breaks when hacked by Domestic O Series Guidebot aka D.O.G. (based on Eliza)
+https://docs.google.com/document/d/1FWI6HmY872XOMKst_AlYjdXBpvG865sFeSrdu0pcEsE/edit?usp=sharing
 
-## 
