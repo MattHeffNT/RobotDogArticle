@@ -1,0 +1,22 @@
+:root {
+	/* Colours */
+	--black: #000;
+	--black-60: rgba(0, 0, 0, 0.6);
+	--black-40: rgba(0, 0, 0, 0.4);
+	--black-20: rgba(0, 0, 0, 0.2);
+	--white: #fff;
+	--white-60: rgba(255, 255, 255, 0.6);
+	--white-40: rgba(255, 255, 255, 0.4);
+	--white-20: rgba(255, 255, 255, 0.2);
+
+	/* Brand Colours */
+	--yellow: #e7d64b;
+	--orange: #ff8f45;
+	--red: #e94641;
+	--purple: #cf8afa;
+	--blue: #007edf;
+	--light-blue: #80cfe5;
+	--green: #269c4f;
+
+	--opacity: 0.6;
+}

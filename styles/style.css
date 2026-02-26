@@ -63,3 +63,16 @@ input:disabled {
   font-size: 12px;
   margin-top: 10px;
 }
+
+img.svelte-1mm0l5o {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  margin-top: 10em;
+}
+
+#page {
+  margin-top: 9em;
+}

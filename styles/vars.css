@@ -1,0 +1,35 @@
+/* Variables */
+
+/* @media (min-aspect-ratio: 1440 / 910) {
+	:root {
+		--vr: calc(100vh / 910);
+	}
+}
+@media (max-aspect-ratio: 1440 / 910) {
+	:root {
+		--vr: calc(100vw / 1440);
+	}
+} */
+
+/* Mobile Breakpoint */
+
+/* @media (max-width: 800px) and (min-aspect-ratio: 379 / 766) {
+	:root {
+		--vr: calc(100vh / 766);
+	}
+}
+@media (max-width: 800px) and (max-aspect-ratio: 379 / 766) {
+	:root {
+		--vr: calc(100vw / 379);
+	}
+} */
+
+:root {
+  --vr: 1px;
+}
+
+/* @media screen and (min-width: 1440px) {
+	:root {
+		--vr: calc(calc(100vw / 10000) + 1px);
+	}
+} */

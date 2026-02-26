@@ -1,0 +1,74 @@
+/* Text styles */
+.extra-large {
+	font-size: 100px;
+	line-height: 1.1;
+	letter-spacing: -0.02em;
+}
+.large {
+	font-size: 64px;
+	line-height: 1.1;
+	letter-spacing: -0.02em;
+}
+.medium,
+.rich-text h3,
+.rich-text h2 {
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: -0.02em;
+}
+.paragraph,
+.rich-text p {
+	font-size: 17px;
+	line-height: 1.3;
+}
+.paragraph-small {
+	font-size: 15px;
+	line-height: 1.25;
+}
+.tiny {
+	font-size: 13px;
+	line-height: 1.25;
+}
+
+@media only screen and (max-width: 1024px) {
+	.extra-large {
+		font-size: 60px;
+	}
+	.large {
+		font-size: 44px;
+	}
+	.medium {
+		/* font-size: 32px; Same as desktop */
+	}
+	.paragraph {
+		/* font-size: 17px; Same as desktop */
+	}
+	.paragraph-small {
+		/* font-size: 15px; Same as desktop */
+	}
+	.tiny {
+		/* font-size: 12px; Same as desktop */
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	/* Text styles */
+	.extra-large {
+		font-size: 44px;
+	}
+	.large {
+		font-size: 32px;
+	}
+	.medium {
+		font-size: 24px;
+	}
+	.paragraph {
+		font-size: 15px;
+	}
+	.paragraph-small {
+		/* font-size: 12px; */
+	}
+	.tiny {
+		/* font-size: 12px; Same as desktop */
+	}
+}

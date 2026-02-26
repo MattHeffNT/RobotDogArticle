@@ -1,0 +1,45 @@
+:root {
+	--XXXXXS: 4px;
+	--XXXXS: 8px;
+	--XXXS: 16px;
+	--XXS: 24px;
+	--XS: 32px;
+	--S: 40px;
+	--M: 60px;
+	--L: 80px;
+	--XL: 120px;
+	--XXL: 200px;
+	--XXXL: 324px;
+}
+
+@media only screen and (max-width: 1024px) {
+	:root {
+		--XXXXXS: 4px;
+		--XXXXS: 8px;
+		--XXXS: 8px;
+		--XXS: 16px;
+		--XS: 32px;
+		--S: 40px;
+		--M: 60px;
+		--L: 80px;
+		--XL: 120px;
+		--XXL: 200px;
+		--XXXL: 324px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	:root {
+		--XXXXXS: 4px;
+		--XXXXS: 8px;
+		--XXXS: 8px;
+		--XXS: 12px;
+		--XS: 24px;
+		--S: 32px;
+		--M: 36px;
+		--L: 52px;
+		--XL: 80px;
+		--XXL: 100px;
+		--XXXL: 140px;
+	}
+}

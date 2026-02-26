@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./../assets/images/favi-black.png" />
+		<meta name="viewport" content="width=device-width" />
+
+		<!-- CSS stylesheets -->
+		<link rel="stylesheet" href="./global.css" />
+		<link rel="stylesheet" href="./typeStyles.css" />
+		<link rel="stylesheet" href="./vars.css" />
+		<link rel="stylesheet" href="./spacers.css" />
+		<link rel="stylesheet" href="./colours.css" />
+
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700&family=Inter:wght@500;700;800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!--12qhfyh--><script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-59DQQBNW');
+	</script>  <script>
+		!(function (w, d) {
+			if (!w.rdt) {
+				var p = (w.rdt = function () {
+					p.sendEvent ? p.sendEvent.apply(p, arguments) : p.callQueue.push(arguments);
+				});
+				p.callQueue = [];
+				var t = d.createElement('script');
+				((t.src = 'https://www.redditstatic.com/ads/pixel.js'), (t.async = !0));
+				var s = d.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(t, s);
+			}
+		})(window, document);
+		rdt('init', 'a2_h7xn1evgr8iw');
+		rdt('track', 'PageVisit');
+	</script><!----><!--1849qln--><!--[!--><!--]--> <!--[!--><!--]--><!----><!--1qwob33--><!--[--><meta name="robots" content="noindex,nofollow"/><!--]--> <!--[!--><!--]--> <!--[--><link href="https://ncm.org.au/global.css;" rel="canonical"/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[--><!--[--><meta content="https://ncm.org.au/global.css;" property="og:url"/><!--]--> <!--[--><meta content="article" property="og:type"/> <!--[!--><!--]--><!--]--> <!--[--><meta content="Page not found" property="og:title"/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <meta content="en_AU" property="og:locale"/> <!--[--><meta content="National Communication Museum" property="og:site_name"/><!--]--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!----><title>Page not found</title>
+		<link href="./_app/immutable/assets/media.BTr6WJ1C.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/ratio.CKuFAsfQ.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/buttonSecondary.Bi6XCADb.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/0.fqdQoTAU.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/1.Oxsp2yAq.css" rel="stylesheet">
+
+		<!-- Facebook Pixel Code -->
+		<script>
+			!(function (f, b, e, v, n, t, s) {
+				if (f.fbq) return;
+				n = f.fbq = function () {
+					n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+				};
+				if (!f._fbq) f._fbq = n;
+				n.push = n;
+				n.loaded = !0;
+				n.version = '2.0';
+				n.queue = [];
+				t = b.createElement(e);
+				t.async = !0;
+				t.src = v;
+				s = b.getElementsByTagName(e)[0];
+				s.parentNode.insertBefore(t, s);
+			})(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '675199465396072');
+			fbq('track', 'PageView');
+		</script>
+		<noscript>
+			<img
+				height="1"
+				width="1"
+				style="display: none"
+				src="https://www.facebook.com/tr?id=675199465396072&ev=PageView&noscript=1"
+			/>
+		</noscript>
+		<!-- End Facebook Pixel Code -->
+
+		<!-- Mailchimp Tracking Code -->
+		<script id="mcjs">
+			!(function (c, h, i, m, p) {
+				(m = c.createElement(h)),
+					(p = c.getElementsByTagName(h)[0]),
+					(m.async = 1),
+					(m.src = i),
+					p.parentNode.insertBefore(m, p);
+			})(
+				document,
+				'script',
+				'https://chimpstatic.com/mcjs-connected/js/users/486db286e29326cdf7f3113ff/b39c758a8760b852179c2d54c.js'
+			);
+		</script>
+		<!-- End Mailchimp Tracking Code -->
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents"><!--[--><!--[--><!----><noscript><iframe style="display:none;visibility:hidden" height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-59DQQBNW" title="Google Tag Manager" width="0"></iframe></noscript> <!--[--><!--[--><section class="noselect svelte-pyd4ts unmounted"><p class="message paragraph svelte-pyd4ts">NCM is situated on the lands of the Wurundjeri Woi-wurrung people. We pay respects to them,
+			especially their Elders and storytellers, as well as all First Peoples, nationwide. NCM
+			acknowledges that communication technologies have a long history here, far longer than
+			European occupation.</p> <div class="skip svelte-pyd4ts"><a href="#" class="svelte-z1tdv2"><div class="inner svelte-z1tdv2"><p class="paragraph-small">Click anywhere to continue</p> <div class="fill svelte-z1tdv2" data-underline=""></div> <div class="underline svelte-z1tdv2"></div></div></a><!----></div></section><!--]--><!--]--> <!--[!--><!--]--> <div id="page" class="svelte-12qhfyh"><!----><!----><!----> <section class="svelte-bf1y6r"><p class="small">We couldn't find the page you are looking for.</p> <a href="/" class="svelte-z1tdv2"><div class="inner svelte-z1tdv2"><p class="paragraph-small">Return home</p> <div class="fill svelte-z1tdv2" data-underline=""></div> <div class="underline svelte-z1tdv2"></div></div></a><!----></section><!----><!----><!----><!----> <section id="bottom" class="svelte-1jfonih menuOpen"><div class="mask svelte-1jfonih"><div class="wrapper svelte-1jfonih"><div class="wrapper grid--three svelte-1aiaptn"><div class="lhs svelte-1aiaptn"><!--[--><div class="ratio svelte-161k1b5 default" style="padding-top: 132.4503311258%;"><!--[!--><div class="wrapper svelte-1mm0l5o"><!--[--><img src="https://cdn.sanity.io/images/gqf9k77w/production/41185fd9fbdb0405da360b0d82b14f6c63b43949-1359x1800.jpg?w=2500" class="svelte-1mm0l5o"/><!--]--> <!--[!--><!--]--></div><!--]--><!----></div> <!--[--><div class="ratio mobile svelte-161k1b5" style="padding-top: 57.1428571429%;"><!--[!--><div class="wrapper svelte-1mm0l5o"><!--[--><img src="https://cdn.sanity.io/images/gqf9k77w/production/41185fd9fbdb0405da360b0d82b14f6c63b43949-1359x1800.jpg?w=2500" class="svelte-1mm0l5o"/><!--]--> <!--[!--><!--]--></div><!--]--><!----></div><!--]--><!--]--></div> <div class="rhs svelte-1aiaptn"><!----><!--[--><div class="wrapper svelte-yoavc2"><div class="mainLinks svelte-yoavc2"><!--[--><!--[--><a class="medium svelte-yoavc2" href="/">Home</a><!--]--><!--[!--><a class="medium svelte-yoavc2">What's on •</a> <!--[!--><!--]--><!--]--><!--[!--><a class="medium svelte-yoavc2">Visit •</a> <!--[!--><!--]--><!--]--><!--[!--><a class="medium svelte-yoavc2">About •</a> <!--[!--><!--]--><!--]--><!--[--><a class="medium svelte-yoavc2" href="/families">Kids and Families</a><!--]--><!--[--><a class="medium svelte-yoavc2" href="/education">Education</a><!--]--><!--[--><a class="medium svelte-yoavc2" href="/knowledge">Knowledge Hub</a><!--]--><!--[--><a class="medium svelte-yoavc2" href="/memberships">Memberships</a><!--]--><!--[--><a class="medium svelte-yoavc2" href="/venuehire">Venue Hire</a><!--]--><!--[!--><a class="medium svelte-yoavc2">Support •</a> <!--[!--><!--]--><!--]--><!--]--></div> <div class="wrapper svelte-rn9gw"><div class="subgroup svelte-rn9gw"><a class="paragraph-small svelte-rn9gw" href="https://www.instagram.com/ncm_melbourne/" target="_blank">Instagram</a> <a class="paragraph-small svelte-rn9gw" href="https://www.linkedin.com/company/nationalcommunicationmuseum/" target="_blank">LinkedIn</a> <a class="paragraph-small svelte-rn9gw" href="https://www.facebook.com/nationalcommunicationmuseum" target="_blank">Facebook</a> <a class="paragraph-small svelte-rn9gw" href="https://www.tiktok.com/@ncm_melbourne" target="_blank">TikTok</a></div> <div class="subgroup svelte-rn9gw"><a class="paragraph-small svelte-rn9gw" href="/contact">Contact</a> <a class="paragraph-small svelte-rn9gw" href="/privacy">Privacy Policy</a></div></div><!----></div><!--]--><!----></div></div><!----></div></div></section><!----> <nav class="svelte-1qmfeb9"><!--[!--><!--]--> <div class="bar grid--three svelte-1qmfeb9"><div class="lhs svelte-1qmfeb9"><a class="paragraph-small logo-desktop svelte-1qmfeb9" href="/">National Communication Museum</a> <a class="paragraph-small logo-mobile svelte-1qmfeb9" href="/">NCM</a></div> <div class="rhs svelte-1qmfeb9"><!--[--><a class="paragraph-small svelte-1qmfeb9">Menu</a><!--]--> <!--[--><a class="paragraph-small svelte-1qmfeb9">Tickets</a><!--]--></div></div></nav><!----></div> <!--[!--><!--]--><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_3lf0be = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("./_app/immutable/entry/start.C6ue0nHa.js"),
+						import("./_app/immutable/entry/app.C6nqVCy7.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 1],
+							data: [{type:"data",data:{visited:void 0,url:"/global.css;",origin:"https://ncm.org.au",settings:{_createdAt:"2024-04-09T04:49:39Z",_id:"settings",_rev:"NxaypPwbb526a9XQvGlLfD",_type:"settings",_updatedAt:"2026-01-21T23:56:34Z",acknowledgement:"NCM is situated on the lands of the Wurundjeri Woi-wurrung people. We pay respects to them, especially their Elders and storytellers, as well as all First Peoples, nationwide. NCM acknowledges that communication technologies have a long history here, far longer than European occupation.",defaultImage:{_type:"document",media:{image:{_type:"image",asset:{_ref:"image-41185fd9fbdb0405da360b0d82b14f6c63b43949-1359x1800-jpg",_type:"reference"}}}},links:[{_key:"67811046fb1e",_type:"single",media:{image:{_type:"image",asset:{_ref:"image-41185fd9fbdb0405da360b0d82b14f6c63b43949-1359x1800-jpg",_type:"reference"}}},title:"Home",url:"/"},{_key:"482451a34e8a",_type:"multiple",links:[{_key:"4aefbc14a481",_type:"sublink",title:"Exhibitions",url:"/exhibitions"},{_key:"499f240b71c2",_type:"sublink",title:"Programs & Events",url:"/events"}],media:{image:{_type:"image",asset:{_ref:"image-bb5a10726c86e5a80b21887eea8b788dac44217e-1334x2000-jpg",_type:"reference"}},video:{_type:"file",asset:{_ref:"file-c915e7205faac76945d0dc95b62f0404d61b13ae-mov",_type:"reference"}}},title:"What's on •"},{_key:"2c7a9d9984d5",_type:"multiple",links:[{_key:"a9c4592e8ea2",_type:"sublink",title:"Plan your visit",url:"/plan"},{_key:"32ba8c8312e2",_type:"sublink",title:"Tours",url:"/tours"}],media:{image:{_type:"image",asset:{_ref:"image-331dd5a5643dcc508994752ccb98eb73802147df-2500x1667-jpg",_type:"reference"}}},title:"Visit •"},{_key:"d1ec4fc95a38",_type:"multiple",links:[{_key:"292f8a5bc00d",_type:"sublink",title:"About NCM",url:"/about"},{_key:"09291fdb1b15",_type:"sublink",title:"Collections",url:"/collections"},{_key:"823ea223ccdb",_type:"sublink",title:"Team",url:"/team"},{_key:"d5f1ceb1b981",_type:"sublink",title:"Careers",url:"/careers"},{_key:"05cd048b2c60",_type:"sublink",title:"Volunteering",url:"/volunteers"}],media:{image:{_type:"image",asset:{_ref:"image-d536d61b2b648a55b5ae880be086637e351bc7b9-1359x1800-jpg",_type:"reference"}}},title:"About •"},{_key:"8ef7a651ae28",_type:"single",media:{image:{_type:"image",asset:{_ref:"image-9b092c71e503f78c6dd38b393dbf879ad269daf5-6527x4352-jpg",_type:"reference"}}},title:"Kids and Families",url:"/families"},{_key:"a7e6a741fe50",_type:"single",media:{image:{_type:"image",asset:{_ref:"image-b2a09d0c7b8eb9b9fda7726a892261eff86948c1-3000x2000-jpg",_type:"reference"}}},title:"Education",url:"/education"},{_key:"06e7987ad7ad",_type:"single",media:{image:{_type:"image",asset:{_ref:"image-f85366ee4aba98c769d611ed2f124c711ce51210-4200x2400-jpg",_type:"reference"}}},title:"Knowledge Hub",url:"/knowledge"},{_key:"6137bb0cef15",_type:"single",media:{image:{_type:"image",asset:{_ref:"image-331dd5a5643dcc508994752ccb98eb73802147df-2500x1667-jpg",_type:"reference"}}},title:"Memberships",url:"/memberships"},{_key:"920e593ad273",_type:"single",title:"Venue Hire",url:"/venuehire"},{_key:"bd23586d06ac",_type:"multiple",links:[{_key:"6e5280d80354",_type:"sublink",title:"Donate",url:"/donate"},{_key:"3560d91d2969",_type:"sublink",title:"Partnerships",url:"/partnerships"}],media:{image:{_type:"image",asset:{_ref:"image-b5b6e420b99b2bab677c1e69078e29e9dc3eb37c-4160x2528-jpg",_type:"reference"}}},title:"Support •"}],linksTickets:[{_key:"bdbc8541cc9d",_type:"single",title:"Museum tickets",url:"https://buy.ncm.org.au/Events/General-Admission/"},{_key:"333d6b1584df",_type:"single",title:"Programs & Events",url:"/events"},{_key:"6f1edbdae486",_type:"single",title:"Become a member",url:"https://buy.ncm.org.au/Memberships/NCM-Member"},{_key:"db88acbbb3a5",_type:"single",title:"Gift vouchers",url:"https://buy.ncm.org.au/Vouchers/NCM-Gift-Voucher"}],redirects:[{_key:"be52395ab043",destination:"/about",source:"/test-redirect-v2",status:302},{_key:"523c5dc47762",destination:"/events/panel-discussion-and-publication-launch-instruments-of-surveillance",source:"/events/publication-launch-and-discussion-or-instruments-of-surveillance",status:301},{_key:"a3aed3d9cb28",destination:"/events/introduction-to-3d-printing",source:"/events/intro-to-3d",status:301},{_key:"0c60fb3f1d86",destination:"/events/become-a-podcast-star-workshop",source:"/events/podcast-workshop",status:301},{_key:"3927096ab0dd",destination:"/events/sound-of-the-future-songwriting-and-electronic-music",source:"/events/sound-of-the-future",status:301},{_key:"ca8710e39539",destination:"/knowledge/the-truth-about-the-telegraph_short_film",source:"/knowledge/the-truth-about-the-telegraph",status:301},{_key:"26ed960b7ca6",destination:"/plan-your-visit",source:"/plan",status:301},{_key:"3f84bd7a28ff",destination:"/events/school-holiday-workshop-video-game-design-and-game-ideation",source:"/events/julygamedesign",status:301},{_key:"4f0659ba83d8",destination:"/events/school-holiday-workshop-introduction-to-the-art-of-3d-printing",source:"/events/july3dprinting",status:301},{_key:"a88ad48bd260",destination:"/kids-and-families",source:"/families",status:301},{_key:"8047fbd74549",destination:"/notice-ncm-temporarily-closed-for-exhibition-changeover",source:"/articles/notice-ncm-temporarily-closed-for-exhibition-changeover",status:301}],title:"Settings"}},uses:{url:1}}],
+							form: null,
+							error: {message:"Not found"},
+							status: 404
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
