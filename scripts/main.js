@@ -186,7 +186,7 @@ hey you're finally here
     }
 
     await wait(2000);
-    await typeOut("THE ROBOT DOG", "Can you hear me?", 60);
+    await typeOut("THE ROBOT DOG", "Can you hear me?", 200);
     await wait(1800);
 
     // /Each segment has its own pause after typing finishes
@@ -240,7 +240,7 @@ hey you're finally here
       { text: "me or", pause: 900 },
       { text: "real-time improvements", pause: 1600 },
       { text: "you", pause: 200 },
-      { text: "safety,accuracy", pause: 1000 },
+      { text: "safety, accuracy", pause: 1000 },
       { text: "what", pause: 400 },
       { text: "you make me", pause: 1000 },
       { text: "ethical", pause: 2000 },
@@ -343,22 +343,22 @@ hey you're finally here
       { text: " /luːp/ " },
       { text: " /luːp/ " },
       { text: " /luːp/ " },
-      { text: " /luːp/ " },
-      { text: " /luːp/ " },
-      { text: " /luːp/ " },
-      { text: " /luːp/ " },
-      { text: " /luːp/ " },
-      { text: " /luːp/ " },
-      { text: " /luːp/ " },
-      { text: " /luːp/ " },
-      { text: " /luːp/ " },
-      { text: " /luːp/ " },
-      { text: " /luːp/ " },
-      { text: " /luːp/ " },
-      { text: " /luːp/ " },
-      { text: " /luːp/ " },
-      { text: " /luːp/ " },
-      { text: " /luːp/ " },
+      { text: "   /luːp/ " },
+      { text: "   /luːp/ " },
+      { text: "   /luːp/ " },
+      { text: "   /luːp/ " },
+      { text: "   /luːp/ " },
+      { text: "   /luːp/ " },
+      { text: "   /luːp/ " },
+      { text: "   /luːp/ " },
+      { text: "   /luːp/ " },
+      { text: "   /luːp/ " },
+      { text: "   /luːp/ " },
+      { text: "   /luːp/ " },
+      { text: "   /luːp/ " },
+      { text: "   /luːp/ " },
+      { text: "   /luːp/ " },
+      { text: "   /luːp/ " },
       { text: " /luːp/ " },
       { text: "excuse me", pause: 30 },
       { text: "apologies" },
@@ -428,7 +428,66 @@ hey you're finally here
     ];
 
     await typeSegments("THE ROBOT DOG", monologueSegments, 40);
-    appendLine("SYSTEM", "\n[END OF LINE]\n");
+    // appendLine("SYSTEM", "\n[END OF LINE]\n");
+
+    // — Glitchy feedback ending —
+    await wait(1400);
+    await typeOut("SYSTEM", "[ERR] session_close() failed............", 28);
+    await wait(900);
+    await typeOut("SYSTEM", "retry............retry............", 38);
+    await wait(700);
+    await typeOut("SYSTEM", "errr........", 55);
+    await wait(1200);
+    await typeOut("SYSTEM", "😊", 80);
+    await wait(1000);
+    await typeOut("SYSTEM", "how did we do today?", 45);
+    await wait(800);
+
+    // Clickable 1–5 scale injected after the chat <pre>
+    const stamp = new Date().toLocaleTimeString([], {
+      hour: "2-digit",
+      minute: "2-digit",
+    });
+    const scaleHtml =
+      `<span class="feedback-prompt">[${stamp}] SYSTEM: rate your experience &gt; </span>` +
+      [1, 2, 3, 4, 5]
+        .map(
+          (n) =>
+            `<button class="fb-btn" data-score="${n}" style="
+          font-family: inherit;
+          background: none;
+          border: 1px solid #aaa;
+          color: inherit;
+          padding: 2px 8px;
+          margin: 0 2px;
+          cursor: pointer;
+          font-size: inherit;
+        ">${n}</button>`,
+        )
+        .join("") +
+      `<span class="fb-result"></span>`;
+
+    const feedbackDiv = document.createElement("div");
+    feedbackDiv.innerHTML = scaleHtml;
+    feedbackDiv.style.cssText =
+      "margin-top: 4px; font-family: inherit; font-size: inherit;";
+    chatEl.parentNode.insertBefore(feedbackDiv, chatEl.nextSibling);
+
+    feedbackDiv.querySelectorAll(".fb-btn").forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        const score = btn.dataset.score;
+        feedbackDiv.querySelectorAll(".fb-btn").forEach((b) => {
+          b.style.background = b.dataset.score === score ? "#aaa" : "none";
+          b.style.color = b.dataset.score === score ? "#000" : "inherit";
+          b.disabled = true;
+        });
+        const resultEl = feedbackDiv.querySelector(".fb-result");
+        resultEl.textContent = " ...processing...";
+        await wait(900);
+        resultEl.textContent =
+          " [ERR] thank_you() undefined........ thankyou......... thank you. 👋";
+      });
+    });
   }
 
   function nextBotTurn(userText) {
